@@ -1,0 +1,15 @@
+{
+  "name": "vk-saverbot",
+  "version": "1.0.0",
+  "description": "VK saver bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vk-io": "^4.0.0-rc.30"
+  }
+}

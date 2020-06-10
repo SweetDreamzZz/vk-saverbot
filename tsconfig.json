@@ -1,0 +1,13 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true, 
+    "outDir": "build",   
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
+}
