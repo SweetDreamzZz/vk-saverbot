@@ -47,7 +47,7 @@ vk.updates.on('new_message', async context => {
 
         await utils.deleteMessage(context.vk.api, start_message);
 
-        await context.send({
+        return context.send({
             attachment,
 
             payload: JSON.stringify({
